@@ -9,7 +9,7 @@ of the volume.
 2) write a python script inside (/var/lib/docker/volumes/app/_data)
 
 3) Build the docker image
-   docker build -t python-time
+   docker build -t python-time .
 
 4) Create the container
    docker run docker run --mount source=app,target=/app python-time
